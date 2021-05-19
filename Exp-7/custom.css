@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E8F1FA;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.clear:after, .clear:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+}
+
+.right {
+    float: right;
+    width: 60%;
+    padding-top: 160px;
+}
+
+h1 {
+    font: 24px Poppins;
+    font-weight: bold;
+}
+
+.box, .queries {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    padding: 15px;
+    width: 100%;
+    margin: 15px auto;
+    background-color: #dae9f8;
+    border: 0;
+    border-radius: 5px;
+}
+
+.radio {
+    margin: 10px;
+}
+
+.radio-text {
+    font: 16px Poppins;
+    margin-right: 40px;
+}
+
+.queries {
+    height: 100px;
+    font-family: Poppins;
+}
+
+.button {
+    background-color: #005DFF;
+    width: 100%;
+    padding: 15px;
+    font: 18px Poppins;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
